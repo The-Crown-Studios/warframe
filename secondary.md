@@ -47,3 +47,21 @@
   - 1 [`Forma`](https://warframe.fandom.com/wiki/Forma)
   - 2 [`Detonite Injector`](https://warframe.fandom.com/wiki/Detonite_Injector)
   - 5000 [`Plastids`](https://warframe.fandom.com/wiki/Plastids)
+
+```mermaid
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart TD
+    Kohmak1["Kohmak"]-->Forma1["Forma"]
+    Kohmak1["Kohmak"]-->Detonite_Injector1["Detonite Injector"]
+    Kohmak1["Kohmak"]-->Plastids1["Plastids"]
+
+    Forma0["Forma"]
+
+    Kohmak2["Kohmak"]-->Forma2["Forma"]
+    Kohmak2["Kohmak"]-->Detonite_Injector2["Detonite Injector"]
+    Kohmak2["Kohmak"]-->Plastids2["Plastids"]
+
+    Twin_Kohmak["Twin Kohmak"]-->Forma0
+    Twin_Kohmak["Twin Kohmak"]-->Kohmak1["Kohmak"]
+    Twin_Kohmak["Twin Kohmak"]-->Kohmak2["Kohmak"]
+```
